@@ -2,7 +2,7 @@
 PRAVILA IGRE:
 - igrač mora pogoditi broj između min i max
 - igrač ima određen broj pokušaja
-- igrača se obavještava o broju pokušaka koji su mu ostali
+- igrača se obavještava o broju pokušaja koji su mu ostali
 - igrača se obavještava je li pogodio točno ili pogrešno
 - igrač može izabrati ponavljanje igre
 */
@@ -84,7 +84,6 @@ function gameOver(won, msg) {
      // submit gumbić mijenja tekst u "zaigraj ponovo"
      guessBtn.value = 'Zaigraj ponovo!';
      guessBtn.className += 'play-again';
-
 }
 
 // Get Winning Number
